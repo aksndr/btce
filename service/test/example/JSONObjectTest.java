@@ -23,17 +23,10 @@ public class JSONObjectTest {
             TickRecord tr = new TickRecord(course);
             records.add(tr);
         }
-        Thread.sleep(20*1000);
-        course = HttpUtils.httpGet(url);
-        if (course!=null)  {
-            TickRecord tr = new TickRecord(course);
-            records.add(tr);
-        }
-
         String retVal = "";
 
         JSONObject jsonObj = new JSONObject();
-        jsonObj.append("success",true);
+        jsonObj.put("success",true);
         jsonObj.accumulate("ticker",records);
 
         retVal = jsonObj.toString();
