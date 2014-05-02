@@ -3,3 +3,4 @@
 *.war
 *.ear
 $GIT_DIR/out
+$GIT_DIR/service/target
