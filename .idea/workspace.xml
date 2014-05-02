@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="Readme">
-      <change type="DELETED" beforePath="C:\Workspace\btce\service\Readme.md" afterPath="" />
+    <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="btce.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399060194384" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399060201529" ignored="false" />
     <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399033723364" ignored="false" />
     <file path="/JSONObjectTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399015708692" ignored="false" />
     <file path="/Servlet.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399013840845" ignored="false" />
@@ -831,7 +830,11 @@
       <created>1399059835705</created>
       <updated>1399059835705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme">
+      <created>1399060206269</created>
+      <updated>1399060206269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
