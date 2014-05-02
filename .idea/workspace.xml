@@ -2,82 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/client/src/ru/aksndr/client/Start.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/test/test1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/BtcRurTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/lib3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/main2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/complete/src/main/main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/main1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/service/web/WEB-INF/sun-jaxws.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/test/java/ru/aksndr/test/HelloWorldTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/HttpUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/service/service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/artifacts/service_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/TickRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/lib1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/socketServer/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/service/src/servlet/Servlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/test/test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/.idea/libraries/lib2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/HelloWorld.java" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\SayHello.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\GetCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_apache_servicemix_servicemix_http_3_1_1_incubating.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_mortbay_jetty_jetty_management_6_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__commons_logging_commons_logging_1_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\Greetings.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_apache_servicemix_servicemix_shared_3_1_1_incubating.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\SayHelloResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__commons_httpclient_commons_httpclient_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\HelloService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\GetCourseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__commons_codec_commons_codec_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_apache_servicemix_servicemix_common_3_1_1_incubating.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\broker\TickerControl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\Hello.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_apache_servicemix_servicemix_soap_3_1_1_incubating.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\broker\BtceConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__bouncycastle_bcprov_jdk14_124.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\SayHello.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_opensaml_opensaml_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__xml_security_xmlsec_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__org_mortbay_jetty_jetty_6_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\SayHelloResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\SayHelloResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__wsdl4j_wsdl4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\.idea\libraries\Maven__wss4j_wss4j_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\GetCourseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\TestService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\SayHello.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\jaxws\GetCourse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Workspace\WSTest\client\src\ru\aksndr\client\package-info.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Workspace\WSTest\btce-broker\server\src\main\java\ru\aksndr\server\broker\BTC_RUR_Ticker.java" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/BTC_RUR_Ticker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/jaxws/GetCourse.java" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/jaxws/GetCourse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/Hello.java" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/.idea/artifacts/server_war_exploded.xml" afterPath="$PROJECT_DIR$/../WSTest/.idea/artifacts/server_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/socketServer/socketServer.iml" afterPath="$PROJECT_DIR$/../WSTest/socketServer/socketServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/btce-broker.iml" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/btce-broker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/client/client.iml" afterPath="$PROJECT_DIR$/../WSTest/client/client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/jaxws/GetCourseResponse.java" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/jaxws/GetCourseResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/Greetings.java" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/Greetings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/pom.xml" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/Server.java" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/.idea/artifacts/server_war.xml" afterPath="$PROJECT_DIR$/../WSTest/.idea/artifacts/server_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/SocketServerChanel.java" afterPath="$PROJECT_DIR$/../WSTest/socketServer2/src/main/java/SocketServerChanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WSTest/btce-broker/server/server.iml" afterPath="$PROJECT_DIR$/../WSTest/btce-broker/server/server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="btce.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399013075108" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399059618223" ignored="false" />
     <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399033723364" ignored="false" />
     <file path="/JSONObjectTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399015708692" ignored="false" />
     <file path="/Servlet.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399013840845" ignored="false" />
@@ -89,6 +21,7 @@
     <file path="/a.dummy" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399029639009" ignored="false" />
     <file path="$PROJECT_DIR$/../btc-e/tiker/web/index.jsp" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399031196548" ignored="false" />
     <file path="$PROJECT_DIR$/../btc-e/tiker/web/WEB-INF/web.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399031346703" ignored="false" />
+    <file path="/Readme.md" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399059794718" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java" line="50" class="example.JSONObjectTest" package="example">
         <option name="ENABLED" value="false" />
@@ -151,6 +83,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -205,37 +138,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/common/utils/HttpUtils.java">
+      <file leaf-file-name="Servlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/servlet/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+            <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/common/broker/BtcRurTicker.java">
+      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/common/broker/TickRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="24" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+            <state line="21" column="47" selection-start="661" selection-end="672" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Records.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/web/app/store/Records.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+            <state line="9" column="31" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecordsGrid.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/web/app/view/RecordsGrid.js">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="230" selection-end="230" vertical-scroll-proportion="0.4409222">
+            <state line="10" column="7" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObjectTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -250,50 +192,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObjectTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
+      <file leaf-file-name="RecordsGrid.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/web/app/view/RecordsGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Servlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/servlet/Servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1716#1728#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="41" selection-start="247" selection-end="247" vertical-scroll-proportion="-6.5384617">
+            <state line="9" column="29" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/web/index.html">
+      <file leaf-file-name="Readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.8846154">
+            <state line="1" column="39" selection-start="115" selection-end="115" vertical-scroll-proportion="0.029259896">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/common/broker/TickRecord.java">
+      <file leaf-file-name="Records.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/web/app/store/Records.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="661" selection-end="672" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/common/broker/BtcRurTicker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="24" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/common/utils/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -309,7 +247,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="SYNC_SETTING" value="DONT" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../WSTest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -336,6 +274,7 @@
         <option value="$PROJECT_DIR$/service/web/app/model/Record.js" />
         <option value="$PROJECT_DIR$/service/web/app/store/Records.js" />
         <option value="$PROJECT_DIR$/service/web/app/view/RecordsGrid.js" />
+        <option value="$PROJECT_DIR$/service/Readme.md" />
       </list>
     </option>
   </component>
@@ -382,8 +321,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -534,6 +471,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,9 +492,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -631,6 +570,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -657,19 +609,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -708,6 +647,17 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -727,17 +677,6 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
@@ -852,8 +791,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JSONObjectTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JSONObjectTest.test" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -897,34 +836,34 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40206185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5979381" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40206185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -960,7 +899,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -1004,11 +943,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/service/src/common/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="62" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/common/broker/BtcRurTicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/web/app/store/Records.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/web/app/view/RecordsGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/web/app/model/Record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/common/broker/TickRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="47" selection-start="661" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="44" selection-start="1346" selection-end="1374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../WSTest/service/src/servlet/Servlet.java">
@@ -1042,31 +1056,23 @@
     <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="14" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/BtcRurTicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="549" selection-end="780" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/BtcRurTicker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="549" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="13" selection-start="549" selection-end="780" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/BtcRurTicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="13" selection-start="549" selection-end="780" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="62" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="62" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java">
@@ -1093,14 +1099,12 @@
     <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
@@ -1108,23 +1112,23 @@
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="247" selection-end="247" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="7" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="31" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1160,15 +1164,20 @@
     <entry file="file://$PROJECT_DIR$/service/src/servlet/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1716#1728#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/web/app/view/RecordsGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="230" selection-end="230" vertical-scroll-proportion="0.4409222">
+        <state line="9" column="29" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="39" selection-start="115" selection-end="115" vertical-scroll-proportion="0.029259896">
           <folding />
         </state>
       </provider>

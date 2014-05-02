@@ -27,6 +27,7 @@
     <orderEntry type="library" name="Java EE 6" level="application" />
     <orderEntry type="library" name="junit" level="application" />
     <orderEntry type="library" name="JAX-WS" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
   </component>
 </module>
 
