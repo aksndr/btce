@@ -6,7 +6,6 @@ import org.json.JSONObject;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
@@ -21,7 +20,6 @@ import static java.util.concurrent.TimeUnit.SECONDS;
  * User: a.arzamastsev Date: 01.05.14 Time: 18:21
  */
 
-@WebServlet("/servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
