@@ -6,6 +6,7 @@ import org.json.JSONObject;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
@@ -19,20 +20,20 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 /**
  * User: a.arzamastsev Date: 01.05.14 Time: 18:21
  */
+
+@WebServlet("/servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
     String message;
+    @Override
     public void init(ServletConfig servletConfig) throws ServletException {
     super.init(servletConfig);
-        String url = "https://btc-e.com/api/2/btc_rur/ticker";
-//        message = "Fuck!";
-//        message = HttpUtils.httpGet(url);
         tickBTCRURForAnHour();
     }
-
+    @Override
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         doGet(request, response);
     }
-
+    @Override
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         response.setContentType("text/javascript");
 //        response.setContentType("application/json");

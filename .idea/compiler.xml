@@ -27,6 +27,9 @@
         <module name="service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

@@ -7,7 +7,7 @@ Ext.define('btce.store.Records', {
     leadingBufferZone: 1000,
 	proxy: {
 		type: 'ajax',
-		url: 'http://localhost:8080/services/Servlet',
+		url: 'http://localhost:8080/btce/servlet',
 		actionMethods: {
         create : 'POST',
         read   : 'GET',
