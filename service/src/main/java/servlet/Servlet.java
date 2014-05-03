@@ -23,7 +23,6 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 @WebServlet("/servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
-    String message;
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
     super.init(servletConfig);
