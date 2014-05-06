@@ -5,7 +5,8 @@ Ext.define('btce.Application', {
     appFolder: 'app',	
 	
 	controllers: [
-        'Main'
+        'Main',
+        'LeftMenuController'
     ],	
 	
     launch: function() {

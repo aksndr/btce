@@ -7,24 +7,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="Updated configaration to support IDEA as artefacts as maven compiling">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js" />
-      <change type="DELETED" beforePath="C:\Workspace\btce\service\src\main\webapp\app\controller\Readme.md" afterPath="" />
+    <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/controller/LeftMenuController.js" />
+      <change type="MOVED" beforePath="C:\Workspace\btce\service\src\main\webapp\app\view\LeftMenue.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/app/Application.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" afterPath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/webapp/app/view/RecordsGrid.js" afterPath="$PROJECT_DIR$/service/src/main/webapp/app/view/RecordsGrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" afterPath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="btce.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399367878878" ignored="false" />
-    <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399118243412" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399372416135" ignored="false" />
+    <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399380201544" ignored="false" />
     <file path="/JSONObjectTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399061449954" ignored="false" />
-    <file path="/Servlet.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399368451326" ignored="false" />
+    <file path="/Servlet.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399380748222" ignored="false" />
     <file path="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/sun-jaxws.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399014659004" ignored="false" />
     <file path="$PROJECT_DIR$/server/src/main/java/server/utils/HttpUtils.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399014659006" ignored="false" />
     <file path="/HelloWorld.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399014884614" ignored="false" />
@@ -44,7 +43,11 @@
     <file path="/BtcRurTicker.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399122298292" ignored="false" />
     <file path="/MainContainer.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399369570659" ignored="false" />
     <file path="/ButtonBar.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399370171764" ignored="false" />
-    <file path="/LeftMenue.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399371056878" ignored="false" />
+    <file path="/LeftMenue.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399371472132" ignored="false" />
+    <file path="/LeftMenuController.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399381209720" ignored="false" />
+    <file path="/Application.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399372877992" ignored="false" />
+    <file path="/Records.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399378878592" ignored="false" />
+    <file path="/LeftMenu.js" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399380486715" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,43 +66,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java" line="50" class="example.JSONObjectTest" package="example">
         <option name="ENABLED" value="false" />
@@ -176,7 +142,59 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" line="43" class="servlet.Servlet" package="servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -189,27 +207,9 @@
       <file leaf-file-name="JSONObjectTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="6" selection-start="302" selection-end="924" vertical-scroll-proportion="0.0">
+            <state line="34" column="5" selection-start="302" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="26" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -243,16 +243,55 @@
       <file leaf-file-name="Records.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+            <state line="5" column="21" selection-start="138" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Servlet.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Servlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+            <state line="64" column="48" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.37142858">
+              <folding>
+                <element signature="e#2547#2662#0" expanded="true" />
+                <element signature="e#2651#2652#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1652" column="28" selection-start="69737" selection-end="69737" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutorService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="0" selection-start="5213" selection-end="5222" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduledThreadPoolExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="758" column="17" selection-start="28543" selection-end="28543" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1385" column="16" selection-start="55699" selection-end="55699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -270,7 +309,7 @@
       <file leaf-file-name="RecordsGrid.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/RecordsGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="43" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+            <state line="3" column="13" selection-start="110" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -285,73 +324,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="7" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/Application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="69" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.20039293">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeftMenue.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="68" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonBar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainContainer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="212" selection-end="390" vertical-scroll-proportion="0.0">
+            <state line="67" column="31" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -366,10 +342,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <file leaf-file-name="MainContainer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="53" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
+            <state line="23" column="28" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonBar.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="28" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftMenu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="31" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftMenuController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/LeftMenuController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="40" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="19" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Record.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/model/Record.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/Application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="70" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="9" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="7" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -415,19 +472,22 @@
         <option value="$PROJECT_DIR$/service/test/example/JSONObjectTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service/src/main/java/servlet/Start.java" />
-        <option value="$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js" />
         <option value="$PROJECT_DIR$/service/test/example/dfsdf.java" />
         <option value="$PROJECT_DIR$/service/test/example/MillsToDateTest.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
         <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js" />
-        <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js" />
         <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenue.js" />
-        <option value="$PROJECT_DIR$/service/src/main/webapp/app/Application.js" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js" />
         <option value="$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/Application.js" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/RecordsGrid.js" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenu.js" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js" />
+        <option value="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
+        <option value="$PROJECT_DIR$/service/src/main/webapp/app/controller/LeftMenuController.js" />
       </list>
     </option>
   </component>
@@ -534,7 +594,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -850,18 +909,19 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="270" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="298" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="298" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service/src/main/webapp/META-INF" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="300" />
@@ -877,18 +937,18 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="MavenSettings" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1026,19 +1086,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1065,6 +1112,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1103,17 +1163,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1133,6 +1182,17 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
@@ -1312,7 +1372,11 @@
       <created>1399129134738</created>
       <updated>1399129134738</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some ui updates">
+      <created>1399371432571</created>
+      <updated>1399371432571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1337,38 +1401,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6718213" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40206185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.2869416" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.099358976" sideWeight="0.6705998" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17521368" sideWeight="0.6705998" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17521368" sideWeight="0.59882003" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284169" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6718213" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40117994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.2869416" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.099358976" sideWeight="0.59882003" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281787" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1414,7 +1478,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated configaration to support IDEA as artefacts as maven compiling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some ui updates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1433,6 +1497,7 @@
     <MESSAGE value="remove out" />
     <MESSAGE value="Added Date formatting" />
     <MESSAGE value="Updated configaration to support IDEA as artefacts as maven compiling" />
+    <MESSAGE value="Some ui updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1446,57 +1511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../WSTest/service/test/example/JSONObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="44" selection-start="1346" selection-end="1374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="661" selection-end="672" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="24" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
@@ -1542,7 +1556,10 @@
     <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="1" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#2547#2662#0" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,16 +1665,9 @@
         <state line="4" column="16" selection-start="127" selection-end="135" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="6" selection-start="302" selection-end="924" vertical-scroll-proportion="0.0">
+        <state line="34" column="5" selection-start="302" selection-end="924" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1686,20 +1696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar!/META-INF/maven/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="331" column="8" selection-start="14249" selection-end="14249" vertical-scroll-proportion="0.33333334" />
@@ -1714,7 +1710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="53" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
+        <state line="67" column="31" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1742,9 +1738,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/ext/ext-all-debug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+        <state line="106430" column="11" selection-start="2782382" selection-end="2782382" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1756,52 +1766,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="212" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/ext/ext-all-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106430" column="11" selection-start="2782382" selection-end="2782382" vertical-scroll-proportion="0.0">
+        <state line="3" column="4" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/RecordsGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="43" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+        <state line="3" column="13" selection-start="110" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenue.js">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/BtcRurTicker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="68" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+        <state line="13" column="70" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/Application.js">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/broker/TickRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="69" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="38" column="9" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
+    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.20039293">
+        <state line="1385" column="16" selection-start="55699" selection-end="55699" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="758" column="17" selection-start="28543" selection-end="28543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="5213" selection-end="5222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/model/Record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1652" column="28" selection-start="69737" selection-end="69737" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/ButtonBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="138" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/LeftMenuController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="40" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="48" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.37142858">
+          <folding>
+            <element signature="e#2547#2662#0" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

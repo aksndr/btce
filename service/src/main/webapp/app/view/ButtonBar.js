@@ -4,7 +4,7 @@ Ext.define('btce.view.ButtonBar' ,{
     title: 'Button bar',
     items: [
         {
-            xtype: 'leftMenue'
+            xtype: 'leftMenu'
         }
     ]
 });

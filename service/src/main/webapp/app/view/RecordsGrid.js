@@ -1,7 +1,7 @@
 Ext.define('btce.view.RecordsGrid' ,{
     extend: 'Ext.grid.Panel',
     alias: 'widget.recordsGrid',
-
+    id: 'btce',
     title: 'Records',
 	store: 'Records',
 

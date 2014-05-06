@@ -8,15 +8,10 @@ Ext.define('btce.controller.Main', {
 	views: [
         'MainContainer',
         'RecordsGrid',
-        'ButtonBar',
-        'LeftMenue'
+        'ButtonBar'
     ],
 	
 	stores: [
         'Records'
     ]
-	
-	//init: function() {
-    //    console.log('Initialized Users! This happens before the Application launch function is called');
-    //}
 });

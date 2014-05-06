@@ -36,12 +36,20 @@ public class Servlet extends javax.servlet.http.HttpServlet {
 //        response.setContentType("application/json");
 //        response.setContentType("application/x-json");
         Writer out = response.getWriter();
-        out.write( getJson());
+        String message = null;
+
+        if ("getJson".equals(request.getParameter("command"))){
+            message = getJson();
+        } else if ("stopServlet".equals(request.getParameter("command"))) {
+            message = stopServlet();
+        }
+        out.write(message);
     }
 
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(5);
     static BtcRurTicker ticker;
-    public List<TickRecord> records = new ArrayList<TickRecord>(2);
+    public List<TickRecord> records = new ArrayList<TickRecord>(250);
+    private ScheduledFuture<?> tickerHandle;
 
     public String getJson() {
         JSONObject jsonObj = new JSONObject();
@@ -49,9 +57,19 @@ public class Servlet extends javax.servlet.http.HttpServlet {
         return jsonObj.toString();
     }
 
+    public String stopServlet() {
+        try {
+            tickerHandle.cancel(true);
+            scheduler.shutdown();
+        } catch (SecurityException se){
+            return "fail";
+        }
+        return "stopped";
+    }
+
     private void tickBTCRURForAnHour() {
         ticker = new BtcRurTicker(records);
-        final ScheduledFuture<?> tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 15, SECONDS);
+        tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 15, SECONDS);
 
         scheduler.schedule(new Runnable() {
             public void run() {
