@@ -1,5 +1,5 @@
 Ext.define('btce.Application', {
-	requires: ['Ext.container.Viewport'],
+	requires: ['Ext.container.Viewport','Ext.grid.column.RowNumberer'],
     name: 'btce',
     extend: 'Ext.app.Application',
     appFolder: 'app',	
@@ -12,7 +12,7 @@ Ext.define('btce.Application', {
         Ext.create('Ext.container.Viewport', {
             layout: 'fit',
             items: {
-                xtype: 'recordsGrid'
+                xtype: 'mainContainer'
             }
         });
     }

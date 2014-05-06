@@ -19,7 +19,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 /**
  * User: a.arzamastsev Date: 01.05.14 Time: 18:21
  */
-
+//@WebServlet(urlPatterns = "/btce/servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
