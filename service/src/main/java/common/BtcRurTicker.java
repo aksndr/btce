@@ -1,6 +1,7 @@
-package common.broker;
+package common;
 
 import common.utils.HttpUtils;
+import common.utils.RecordsTube;
 
 import java.util.List;
 
@@ -9,9 +10,11 @@ import java.util.List;
  */
 public class BtcRurTicker implements Runnable {
     List<TickRecord> rec;
+    RecordsTube<TickRecord> rt;
 
-    public BtcRurTicker(List<TickRecord> records){
+    public BtcRurTicker(List<TickRecord> records, RecordsTube<TickRecord> rt) {
         this.rec = records;
+        this.rt = rt;
     }
 
     public void run() {
@@ -20,6 +23,7 @@ public class BtcRurTicker implements Runnable {
         if (course !=null)  {
             TickRecord tr = new TickRecord(course);
             rec.add(tr);
+            rt.add(tr);
         }
     }
 }

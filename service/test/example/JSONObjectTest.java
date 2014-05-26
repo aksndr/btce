@@ -4,7 +4,7 @@ package example;
  * User: a.arzamastsev Date: 01.05.14 Time: 17:40
  */
 
-import common.broker.TickRecord;
+import common.TickRecord;
 import common.utils.HttpUtils;
 import org.json.JSONObject;
 
@@ -19,15 +19,15 @@ public class JSONObjectTest {
         List<TickRecord> records = new ArrayList<TickRecord>(2);
         String url = "https://btc-e.com/api/2/btc_rur/ticker";
         String course = HttpUtils.httpGet(url);
-        if (course!=null)  {
+        if (course != null) {
             TickRecord tr = new TickRecord(course);
             records.add(tr);
         }
         String retVal = "";
 
         JSONObject jsonObj = new JSONObject();
-        jsonObj.put("success",true);
-        jsonObj.accumulate("ticker",records);
+        jsonObj.put("success", true);
+        jsonObj.accumulate("ticker", records);
 
         retVal = jsonObj.toString();
         System.out.print(retVal);

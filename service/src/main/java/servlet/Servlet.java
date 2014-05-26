@@ -1,7 +1,10 @@
 package servlet;
 
-import common.broker.BtcRurTicker;
-import common.broker.TickRecord;
+import broker.Bot;
+import common.BtcRurTicker;
+import common.StatRecord;
+import common.TickRecord;
+import common.utils.RecordsTube;
 import org.json.JSONObject;
 
 import javax.servlet.ServletConfig;
@@ -14,6 +17,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 
+import static java.util.concurrent.TimeUnit.HOURS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
@@ -21,6 +25,15 @@ import static java.util.concurrent.TimeUnit.SECONDS;
  */
 //@WebServlet(urlPatterns = "/btce/servlet")
 public class Servlet extends javax.servlet.http.HttpServlet {
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(5);
+    static BtcRurTicker ticker;
+    public List<TickRecord> records = new ArrayList<TickRecord>(250);
+    RecordsTube<TickRecord> rt = new RecordsTube<TickRecord>(3);
+    List<StatRecord> statistic = new ArrayList(100);
+    private ScheduledFuture<?> tickerHandle;
+    private ScheduledFuture<?> botHandle;
+    private Bot bot;
+
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
     super.init(servletConfig);
@@ -46,11 +59,6 @@ public class Servlet extends javax.servlet.http.HttpServlet {
         out.write(message);
     }
 
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(5);
-    static BtcRurTicker ticker;
-    public List<TickRecord> records = new ArrayList<TickRecord>(250);
-    private ScheduledFuture<?> tickerHandle;
-
     public String getJson() {
         JSONObject jsonObj = new JSONObject();
         jsonObj.accumulate("ticker", records);
@@ -68,13 +76,17 @@ public class Servlet extends javax.servlet.http.HttpServlet {
     }
 
     private void tickBTCRURForAnHour() {
-        ticker = new BtcRurTicker(records);
-        tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 15, SECONDS);
+        ticker = new BtcRurTicker(records, rt);
+        bot = new Bot(rt, statistic);
 
+        tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 15, SECONDS);
+        botHandle = scheduler.scheduleAtFixedRate(bot, 47, 15, SECONDS);
         scheduler.schedule(new Runnable() {
             public void run() {
                 tickerHandle.cancel(true);
             }
-        }, 60 * 60, SECONDS);
+        }, 10, HOURS);
+
+
     }
 }

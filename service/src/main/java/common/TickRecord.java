@@ -1,4 +1,4 @@
-package common.broker;
+package common;
 
 import org.json.JSONObject;
 
@@ -34,7 +34,7 @@ public class TickRecord {
         return (df.format(date));
     }
 
-    private Long getCurrTimeInMills(){
+    private Long getCurrTimeInMills() {
         Calendar cal = Calendar.getInstance();
         return cal.getTimeInMillis();
     }
@@ -50,7 +50,7 @@ public class TickRecord {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return String.valueOf(getId());
     }
 
