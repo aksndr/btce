@@ -79,8 +79,8 @@ public class Servlet extends javax.servlet.http.HttpServlet {
         ticker = new BtcRurTicker(records, rt);
         bot = new Bot(rt, statistic);
 
-        tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 10, SECONDS);
-        botHandle = scheduler.scheduleAtFixedRate(bot, 25, 10, SECONDS);
+        tickerHandle = scheduler.scheduleAtFixedRate(ticker, 0, 15, SECONDS);
+        botHandle = scheduler.scheduleAtFixedRate(bot, 25, 15, SECONDS);
         scheduler.schedule(new Runnable() {
             public void run() {
                 tickerHandle.cancel(true);

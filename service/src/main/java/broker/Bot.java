@@ -38,6 +38,9 @@ public class Bot implements Runnable {
     public void run() {
         Operation advice = Advisor.getAdvice(rt);
         BalanceType bType = balance.getBalanceType();
+        if (!advice.equals(Operation.Wait))  {
+            System.out.println(advice);
+        }
         startAtBtcCourse = ((TickRecord) rt.get(0)).getLast();
         if (advice.equals(Operation.Buy) && bType.equals(BalanceType.Rur)) {
             makeBet(((TickRecord) rt.get(1)).getLast(), advice);
@@ -57,7 +60,7 @@ public class Bot implements Runnable {
 
             StatRecord sr = new StatRecord(new Date().toString(), rt, advice, rur);
             statistic.add(sr);
-            System.out.println(sr.toString());
+            System.out.println("");
         }
         if (advice.equals(Operation.Sell)) {
 
@@ -69,7 +72,7 @@ public class Bot implements Runnable {
 
             StatRecord sr = new StatRecord(new Date().toString(), rt, advice, rur);
             statistic.add(sr);
-            System.out.println(sr.toString());
+            System.out.println("Balance after sell: "+rur);
         }
     }
 }

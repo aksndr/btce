@@ -8,16 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae33383-36c0-4d07-8eb8-5d9dd561a706" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java" afterPath="$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java" afterPath="$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/broker/Bot.java" afterPath="$PROJECT_DIR$/service/src/main/java/broker/Bot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" afterPath="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="btce.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401165151937" ignored="false" />
-    <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401174614131" ignored="false" />
+    <file path="/Dummy.txt" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189600604" ignored="false" />
+    <file path="/fragment.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401188901641" ignored="false" />
     <file path="/JSONObjectTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399061449954" ignored="false" />
     <file path="/Servlet.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399462874458" ignored="false" />
     <file path="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/sun-jaxws.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1399014659004" ignored="false" />
@@ -58,9 +56,37 @@
     <file path="/Attributes.xsd" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401168553376" ignored="false" />
     <file path="/wsdl.wsdl" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401169220127" ignored="false" />
     <file path="$PROJECT_DIR$/../XSDGenerator/src/main/java/ru/gazprom/inform/i/iuspd/opentext/DocumentOutService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401169450018" ignored="false" />
-    <file path="$PROJECT_DIR$/../XSDGenerator/src/test/java/ru/test.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401169792256" ignored="false" />
-    <file path="/test.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401170521254" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/src/test/java/ru/test.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401190385905" ignored="false" />
+    <file path="/test.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401190378548" ignored="false" />
     <file path="/Tendency.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401174155739" ignored="false" />
+    <file path="/Bot.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401181297546" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/untitled/web/WEB-INF/web.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401182928205" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/web/WEB-INF/web.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401182964600" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/web/WEB-INF/sun-jaxws.xml" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401182967571" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/FileServer.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401183051651" ignored="false" />
+    <file path="/FileServer.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189087257" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/ru/aksndr/ws/FileServer.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401183907119" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/ru/aksndr/ws/FileServerImpl.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401185626457" ignored="false" />
+    <file path="/FileServerImpl.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401184249027" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/ru/aksndr/common/SoapFile.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401183889332" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/test/FileServerTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401193251694" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/test/FileServerPublisher.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401184811107" ignored="false" />
+    <file path="/FileServerPublisher.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401184798005" ignored="false" />
+    <file path="/FileServerTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401190500788" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/ru/aksndr/ws/SoapFile.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189124900" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/ru/aksndr/ws/FileServer.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189087257" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/ru/aksndr/ws/FileServerImplService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189106013" ignored="false" />
+    <file path="/FileServerImplService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189103349" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/ru/aksndr/ws/ObjectFactory.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189115037" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/example/ru/aksndr/ws/package-info.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401189119727" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/intellijad/com/opentext/livelink/service/core/ContentService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401190209174" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/intellijad/com/sun/xml/messaging/saaj/soap/MessageFactoryImpl.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401190580170" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/ru/aksndr/ws/MetaDataService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401192439926" ignored="false" />
+    <file path="/MetaDataService.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401192439926" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/ru/aksndr/ws/MetaDataServiceImpl.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401192995453" ignored="false" />
+    <file path="/MetaDataServiceImpl.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401192992965" ignored="false" />
+    <file path="$PROJECT_DIR$/../XSDGenerator/SoapService/src/test/MetaDataServiceTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401195383961" ignored="false" />
+    <file path="/MetaDataServiceTest.java" changelist="5ae33383-36c0-4d07-8eb8-5d9dd561a706" time="1401195050530" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +233,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java" line="51" class="broker.Bot" package="broker">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java" line="54" class="broker.Bot" package="broker">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -222,7 +248,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java" line="63" class="broker.Bot" package="broker">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java" line="66" class="broker.Bot" package="broker">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -237,22 +263,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java" line="31" class="broker.utils.Advisor" package="broker.utils">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java" line="41" class="broker.utils.Advisor" package="broker.utils">
+      <breakpoint url="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java" line="41" class="broker.Bot" package="broker">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -286,109 +297,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Servlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="57" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Start.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="51" selection-start="630" selection-end="752" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Advisor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.33222038">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RecordsTube.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="35" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tendency.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/BtcRurTicker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/StatRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/TickRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="0" selection-start="2392" selection-end="2392" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="0" selection-start="5213" selection-end="5222" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/Viewport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainContainer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -407,15 +319,6 @@
         <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/LeftMenu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="30" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedHashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/LinkedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="11" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -466,24 +369,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Record.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/model/Record.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/Application.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -498,6 +383,135 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="45" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/controller/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedHashMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/LinkedHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="11" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainContainer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/MainContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="32" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/view/Viewport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TickRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/TickRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="0" selection-start="2392" selection-end="2392" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/StatRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtcRurTicker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/common/BtcRurTicker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tendency.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="11" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Advisor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Balance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Balance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalanceType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/BalanceType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="39" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Start.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="51" selection-start="630" selection-end="752" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Servlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="60" selection-start="1199" selection-end="1199" vertical-scroll-proportion="-0.7986348">
+              <folding>
+                <element signature="e#2958#3073#0" expanded="true" />
+                <element signature="e#3062#3063#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -565,10 +579,11 @@
         <option value="$PROJECT_DIR$/service/src/main/java/common/broker/Trader.java" />
         <option value="$PROJECT_DIR$/service/test/example/LoadFactorTest.java" />
         <option value="$PROJECT_DIR$/service/test/example/Attribute.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/broker/Bot.java" />
       </list>
     </option>
   </component>
@@ -639,8 +654,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1936" />
+    <option name="width" value="1920" />
     <option name="height" value="1160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -675,6 +689,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -839,20 +854,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="268" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="290" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="290" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="G:/Temp/wsdl.wsdl" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="298" />
@@ -868,18 +882,18 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="MavenSettings" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1043,6 +1057,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1069,19 +1096,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1120,6 +1134,17 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1139,17 +1164,6 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
@@ -1343,7 +1357,11 @@
       <created>1401165154728</created>
       <updated>1401165154728</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="RecordsTube.java bug fix&#10;Added isNear method to Advisor, which cheks if last price is about to reach bound.">
+      <created>1401175073622</created>
+      <updated>1401175073622</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1367,8 +1385,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1936" height="1160" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1160" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1382,17 +1400,17 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17521368" sideWeight="0.5994006" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17672414" sideWeight="0.5994006" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33366632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6718213" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4005994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4005994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.2869416" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.099358976" sideWeight="0.5994006" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10021552" sideWeight="0.5994006" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1447,7 +1465,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed visualisation to line chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="RecordsTube.java bug fix&#10;Added isNear method to Advisor, which cheks if last price is about to reach bound." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1469,6 +1487,7 @@
     <MESSAGE value="Some ui updates" />
     <MESSAGE value="Added update and stop functions" />
     <MESSAGE value="Changed visualisation to line chart" />
+    <MESSAGE value="RecordsTube.java bug fix&#10;Added isNear method to Advisor, which cheks if last price is about to reach bound." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1482,18 +1501,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/test/example/JSONObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../WSTest/btce-broker/server/src/main/java/ru/aksndr/server/broker/BtcRurTicker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="13" selection-start="549" selection-end="780" vertical-scroll-proportion="0.0" />
@@ -1586,23 +1593,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/ext/ext-all-debug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106430" column="11" selection-start="2782382" selection-end="2782382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="106430" column="11" selection-start="2782382" selection-end="2782382" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1385" column="16" selection-start="55699" selection-end="55699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1385" column="16" selection-start="55699" selection-end="55699" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="758" column="17" selection-start="28543" selection-end="28543" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="758" column="17" selection-start="28543" selection-end="28543" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/concurrent/ExecutorService.java">
@@ -1621,16 +1622,12 @@
     </entry>
     <entry file="jar://C:/Java/jdk1.7/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1652" column="28" selection-start="69737" selection-end="69737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1652" column="28" selection-start="69737" selection-end="69737" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/store/Records.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="138" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="21" selection-start="138" selection-end="151" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/sass/config.rb">
@@ -1640,9 +1637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/data/tickers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/app/css/msg.css">
@@ -1744,17 +1739,66 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="75" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-21.08">
+          <folding />
+        </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="75" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-21.08">
+        <state line="16" column="51" selection-start="630" selection-end="752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="35" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="39" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/BalanceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1773,27 +1817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="630" selection-end="752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="57" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Tendency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/common/TickRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="0" selection-start="2392" selection-end="2392" vertical-scroll-proportion="0.0">
@@ -1801,24 +1824,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/common/utils/RecordsTube.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/servlet/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/broker/utils/Advisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.33222038">
-          <folding />
+        <state line="36" column="60" selection-start="1199" selection-end="1199" vertical-scroll-proportion="-0.7986348">
+          <folding>
+            <element signature="e#2958#3073#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
