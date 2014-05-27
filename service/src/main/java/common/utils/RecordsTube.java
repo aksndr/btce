@@ -29,6 +29,6 @@ public class RecordsTube<E> extends ConcurrentLinkedDeque<E> {
     }
 
     public Object get(int index) {
-        return this.toArray()[0];
+        return this.toArray()[index];
     }
 }

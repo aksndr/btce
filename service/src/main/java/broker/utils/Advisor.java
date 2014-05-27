@@ -17,16 +17,29 @@ public class Advisor {
 
         if (first.getLast() < second.getLast() &&
                 second.getLast() < third.getLast() &&
-                third.getLast().equals(third.getHigh())) {
+                isNear(third.getLast(), third.getBuy(), Tendency.up)) {
             return Operation.Sell;
         }
         if (first.getLast() > second.getLast() &&
                 second.getLast() > third.getLast() &&
-                third.getLast().equals(third.getLow())) {
+                isNear(third.getLast(), third.getSell(), Tendency.down)) {
             return Operation.Buy;
         }
         return Operation.Wait;
     }
 
+    private static boolean isNear(Double last, Double bound, Tendency tn) {
+        Double fluctuation = 100.0;
 
+        if (last<bound && last>(bound-fluctuation)&& tn.equals(Tendency.up)) {
+            return true;
+        }
+
+        if (last>bound && last<(bound+fluctuation)&& tn.equals(Tendency.down)) {
+            return true;
+        }
+
+        return false;
+
+    }
 }
