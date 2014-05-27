@@ -14,7 +14,7 @@ Ext.define('btce.view.MainContainer' ,{
             flex: 1
         },
         {
-            xtype: 'recordsGrid',
+            xtype: 'recordsChart',
             flex: 5
         }
     ]

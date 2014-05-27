@@ -8,6 +8,7 @@ Ext.define('btce.controller.Main', {
 	views: [
         'MainContainer',
         'RecordsGrid',
+        'RecordsChart',
         'ButtonBar'
     ],
 	

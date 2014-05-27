@@ -9,7 +9,7 @@ Ext.define('btce.controller.LeftMenuController', {
 
 function onUpdateGridClick(){
     try {
-        var grid = Ext.getCmp('btce');
+        var grid = Ext.getCmp('btceChart');
         grid.getStore().reload();
         grid.getView().refresh();
     } catch (e){
@@ -26,11 +26,30 @@ function onStopServlet(){
             command:'stopServlet'
         },
         success: function(response, opts) {
-            console.log(response.responseText);
+            Ext.aksndr.msg('Stop Servlet result:', response.responseText);
+//            Ext.Msg.alert('Stop Servlet Resault', 'Servlet Stopped');
         },
         failure: function(response, opts) {
-            console.log('server-side failure with status code ' + response.status);
+            Ext.Msg.alert('Stop Servlet result:', 'Failed to stop servlet.');
         }
     });
 
 };
+
+Ext.aksndr = function(){
+    var msgCt;
+    function createBox(t, s){
+        return '<div class="msg"><strong>' + t + '</strong><p>' + s + '</p></div>';
+    }
+    return {
+        msg : function(title, format){
+            if(!msgCt){
+                msgCt = Ext.core.DomHelper.insertFirst(document.body, {id:'msg-div'}, true);
+            }
+            var s = Ext.String.format.apply(String, Array.prototype.slice.call(arguments, 1));
+            var m = Ext.core.DomHelper.append(msgCt, createBox(title, s), true);
+            m.hide();
+            m.slideIn('t').ghost("t", { delay: 1000, remove: true});
+        }
+    };
+}();
